@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "lcd";
+    src: url("../fuentes/lcd.TTF");
+}
+body{
+    background-color: #333;
+}
+.contendor{
+    border: 2px solid #6F7B68;
+    width: 1000px;
+    margin: 30px auto;
+    background-image: url("../imagenes/fondo1.jpg");
+    overflow: auto;
+    background-color: #333;
+    padding-bottom: 10px;
+}
+.title{
+    background-color: #333;
+    font-size: 2.5em;
+    color: #B5EB1A;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border:2px solid #6F7B68 ;
+    border-right: 2px solid #000;
+    border-bottom:2px solid #000 ;
+    font-family: lcd;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+
+}
+.cuerpo{
+    height: 700px;
+}
+.marco{
+    background-color: #333;
+    width: 295px;
+    height: 175px;
+    display: inline-block;
+    padding: 10px 10px 23px 10px;
+    margin: 15px 0px 0px 0px;
+    border: 2px solid #6F7B68;
+    border-right: 2px solid #000;
+    border-bottom:2px solid #000;
+    vertical-align: top;
+}
+.texto{
+    font-family: lcd;
+    font-size: 1.2rem;
+    margin: 0;
+    font-variant: small-caps;
+    text-align: right;
+    font-weight: bold;
+    color: #6F7B68;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+}
